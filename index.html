@@ -15,9 +15,9 @@
     <h6>In the name of Allah, the Beneficent, the Merciful </h6>
 
     <p>Allaah's Messenger (salallaahu 'aliahi wa'sallam) said: <br>
-       do not acquire knowledge in order to compete with the scholars,<br>
-        nor to argue with the ignorant, nor to gain mastery over the gatherings. <br>
-        Since whoever does that, then: The Fire! The Fire! <br>
+    do not acquire knowledge in order to compete with the scholars,<br>
+    nor to argue with the ignorant, nor to gain mastery over the gatherings. <br>
+    Since whoever does that, then: The Fire! The Fire! <br>
 (Ibn Majah) </p>
   <!--end artical home section-->
 <hr>
@@ -85,6 +85,8 @@
 <hr>
   <!--start form home section-->
 <form action="about.html" method="get" target="_blank">
+<fieldset>
+  <legend>personal information</legend>
   <label for="">name:</label>
   <input type="text" placeholder="enter your name" name="user"><br>
   <br>
@@ -95,13 +97,120 @@
   <input type="password" placeholder="enter your pass" name="pass"><br>
   <br>
   <label for="">gender</label>
-     <input type="radio" name="gender" value="boy" id="mouse"><label for="mouse">mail</label>
+  <input type="radio" name="gender" value="boy" id="mouse"><label for="mouse">mail</label>
   <input type="radio" name="gender" value="girl" checked id="mouse"><label for="mouse">female</label>
 <br>
 <br>
-  <input type="submit" value="login"><br>
-  <br>
+<label for="">fav sport</label>
+<input type="checkbox" name="sport" value="football"> <label for="">football</label>
+<input type="checkbox" name="sport" value="basketball"> <label for="">basketball</label>
+<input type="checkbox" name="sport" value="tennes"> <label for="">tennes</label>
+<input type="checkbox" name="sport" value="vollyball"> <label for="">vollyball</label>
+<br>
+<br>
+<label for="">upload cv</label>
+<input type="file" name="cv" multiple accept=".pdf,.docx,.txt"><br>
+<br>
+<br>
+<label for="">birthday</label>
+<input type="date" name="birthday" min="1990-01-01" max="2023-12-31">
+<input type="month" name="month" min="1990-01" max="2023-12">
+<input type="week" name="week" min="1990-W01" max="2023-W52">
+<input type="datetime" name="datetime">
+<input type="datetime-local" name="datetime-local"><br>
+<br>
+<label for="">color</label>
+<input type="color" name="color" value="#ff0000"><br>
+<br>
+<label for="">range</label>
+<input type="range" name="range" min="0" max="100" step="5" value="50"><br>
+<br>
+<label for="">quantity</label>
+<input type="number" name="quantity" min="1" max="10" step="1" value="5"><br>
+<br>
+<label for="">phon</label>
+<input type="tel" name="phon" placeholder="enter your phone number"><br>
+<br>
+<br>
+<label for="">country</label>
+<select name="country" id="">
+<optgroup label="arabic">
+<option>egypt</option>
+<option selected>ksa</option>
+</optgroup>
+<optgroup label="english">
+<option >brazil</option>
+<option >england</option>
+</optgroup>
+</select>
+<br>
+<br>
+<label for="">colors</label>
+<input type="text" name="pen" list="colors">
+<datalist id="colors">
+<option>red</option>
+<option>blue</option>
+<option>green</option>
+<option>yellow</option>
+<option>black</option>
+</datalist>
+<br>
+<label>message</label><br>
+<textarea name="message" rows="5" cols="50" maxlength="100"></textarea>
+<br>
+<input type="submit" value="login">
+<input type="reset" value="reset">
+<button type="submit">login</button>
+<br>
+</fieldset>
 </form>
-  <!--end form home section-->
+<br>
+<br>
+<hr>
+<!--end form home section-->
+<!-- start div tag-->
+<div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ducimus? <span style="color: rgb(224, 48, 48);">Lorem </span>Lorem 
+ipsum,</p>
+</div>
+<!-- end div tag-->
+<br>
+<!-- start iframe tag-->
+<div>
+<iframe src="https://www.pexels.com/" frameborder="0"></iframe><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237684.97440853497!2d39.846546599999996!3d21.
+4360154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c21b4ced818775%3A0x98ab2469cf70c9ce!2z2YXZg9ip!5e0!3m2!1sar!2ssa!4v1754932737909!5m2!1sar!2ssa"
+width="600" height="450" style="border:0;" 
+allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JSOkDnbRM0s?si=wXH_cHiNJTnjzRhP" title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+<!-- end iframe tag-->
+<!-- start videa tag-->
+<div>
+<video controls autoplay muted loop width="400px" height="300px" preload="metadata"
+src="imag/WhatsApp Video 2025-08-11 at 20.41.39_b722c52d.mp4"></video><br>
+</div>
+<div>
+<!-- end video tag-->
+<!-- start audio tag-->
+<audio controls src="imag/Albumaty.Com_mshary_rashd_alafasy_hl_lk_sr_and_allh.mp3"></audio><br>
+</div>
+<!-- end audio tag-->
+<div>
+<i>Lorem ipsum dolor sit amet</i><br>
+<ins>Lorem ipsum dolor sit amet</ins><br>
+<u>Lorem ipsum dolor sit amet.</u><br>
+<mark>Lorem ipsum dolor sit amet.</mark><br>
+<del>Lorem ipsum dolor sit amet.</del><br>
+<strong>Lorem ipsum dolor sit amet.</strong><br>
+<b>Lorem ipsum dolor sit amet.</b><br>
+<small>Lorem ipsum dolor sit amet.</small><br>
+3 <sup>5</sup><br>
+h <sub>2</sub>
+</div>
+<!--end form home section-->
 </body>
 </html>
